@@ -13,3 +13,11 @@ une boucle (en fait, chercher comment faire une loop m'a pris 10 fois plus de te
 ##01/10
 Cette semaine, on a commencé à apprendre à utiliser git. Je suis donc en train d'éditer ce journal sur nano; une fois que 
 j'aurai fini, je ferai mon premier commit git! Ça se fête.
+
+update : en poussant mon dossier d'exercices sur github, je me suis rendu compte que dedans il y avait mes clés ssh.
+Ça m'a donné une sueur froide, mais je me suis vite rendu compte qu'il ne s'agissait pas de ma vraie clé. Je m'explique : 
+lorsqu'on a créé les clés pendant la séance dernière, j'ai tapé les commandes une première fois, suite à quoi je ne 
+trouvais pas le dossier .ssh dans mon home. J'ai donc tapé les commandes à nouveau, et ça avait fonctionné la deuxième fois. 
+J'imagine alors que quand j'ai tapé les commandes pour la première fois, je me trouvais dans mon dossier exercice... J'ai 
+supprimé les clés du dépôt git; je sais qu'on peut toujours les trouver dans l'historique des versions, mais ces clés ne 
+servent à rien alors ce n'est pas très important. 
