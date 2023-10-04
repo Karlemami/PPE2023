@@ -21,3 +21,6 @@ trouvais pas le dossier .ssh dans mon home. J'ai donc tapé les commandes à nou
 J'imagine alors que quand j'ai tapé les commandes pour la première fois, je me trouvais dans mon dossier exercice... J'ai 
 supprimé les clés du dépôt git; je sais qu'on peut toujours les trouver dans l'historique des versions, mais ces clés ne 
 servent à rien alors ce n'est pas très important... 
+
+ouppppsssss erreur
+je me suis trompé
