@@ -24,3 +24,5 @@ servent à rien alors ce n'est pas très important...
 
 ouppppsssss erreur
 je me suis trompé
+
+# 04/10 séance 3
