@@ -22,7 +22,7 @@ J'imagine alors que quand j'ai tapé les commandes pour la première fois, je me
 supprimé les clés du dépôt git; je sais qu'on peut toujours les trouver dans l'historique des versions, mais ces clés ne 
 servent à rien alors ce n'est pas très important...
 
-# Séance 3
+#  Séance 3
 ## Début du fichier oups.md
 
 J'imagine que pour revenir au tag du début de séance, je devrai utiliser "git reset git-séance-3-init". Je veux garder les 
