@@ -22,15 +22,15 @@ J'imagine alors que quand j'ai tapé les commandes pour la première fois, je me
 supprimé les clés du dépôt git; je sais qu'on peut toujours les trouver dans l'historique des versions, mais ces clés ne 
 servent à rien alors ce n'est pas très important...
 
-#Séance 3
-# Début du fichier oups.md
+# Séance 3
+## Début du fichier oups.md
 
 J'imagine que pour revenir au tag du début de séance, je devrai utiliser "git reset git-séance-3-init". Je veux garder les 
 modifications apportés au fichier oups.md, mais pas nécessairement le stagging, alors "git reset" sans option soft ou hard devrait 
 être adapté. Rdv tout à l'heure pour voir si ça aura marché ! Ça a pas l'air de marcher, je me retrouve avec des branches 
 divergentes... Je vais essayer avec revert.
 
-# fin du fichier oups.md
+## fin du fichier oups.md
 
 Bon... Ça a l'air d'avoir marché avec revert, mais j'ai la sensation que ça a été inutilement difficile et/ou que je ne l'ai pas fait
 comme il fallait. J'ai d'abord copié le contenu du fichier oups dans le fichier journal, puis j'ai utilisé la commande revert avec
