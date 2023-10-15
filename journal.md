@@ -47,4 +47,10 @@ petit truc que j'aurais aimé pouvoir faire, c'est pouvoir déclarer et appeler 
 pour le chemin des fichiers, il m'a fallu d'abord la déclarer en faisant DATE=$1, puis l'appeler dans le chemin. J'aurais aimé pouvoir 
 faire quelque chose comme ann/DATE=$1, mais ça ne fonctionne pas. Peut-être trouverai-je un moyen plus simple plus tard...
 
-Tout content d'avoir réussi mes exercices, je me suis dépêché de tout push avec le tag... Avant de remplir le journal... Je vais essayer de changer le tag de commit, j'imagine que c'est possible. 
+Tout content d'avoir réussi mes exercices, je me suis dépêché de tout push avec le tag... Avant de remplir le journal... Je vais essayer 
+de changer le tag de commit, j'imagine que c'est possible.
+
+En effet, c'était possible avec git tag --force <nom du tag> <ID du commit où mettre le tag>. Étant donné qu'il faut utiliser l'option 
+--force, j'imagine que c'est quelque chose qu'il vaut mieux éviter de faire (c'est aussi ce que semblait dire l'inconnu qui m'a fourni 
+cette commande sur stackoverflow (je sais que c'est pas bien de copier le code d'inconnus sur stackoverflow, mais bon celui-ci je 
+comprenais ce qu'il faisait)).
