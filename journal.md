@@ -39,3 +39,12 @@ le fichier oups.md, ce que j'ai fait. J'ai ensuite créé un commit "suppression
 Mais ne serait-ce pas revenu au même de supprimer directement le fichier oups.md sans revert d'abord? D'autant plus que le commit
 "ajout du fichier oups.md" apparaît toujours dans le log... Bref, j'ai hâte de voir la correction mardi parce que tout ça est encore 
 très flou.
+
+# Séance 4
+
+Cette semaine, on a vu les pipelines et les scripts. Ça va, j'ai l'impression d'avoir bien compris; et mes scripts marchent. Le seul 
+petit truc que j'aurais aimé pouvoir faire, c'est pouvoir déclarer et appeler une variable en même temps. Par exemple, la variable $DATE 
+pour le chemin des fichiers, il m'a fallu d'abord la déclarer en faisant DATE=$1, puis l'appeler dans le chemin. J'aurais aimé pouvoir 
+faire quelque chose comme ann/DATE=$1, mais ça ne fonctionne pas. Peut-être trouverai-je un moyen plus simple plus tard...
+
+Tout content d'avoir réussi mes exercices, je me suis dépêché de tout push avec le tag... Avant de remplir le journal... Je vais essayer de changer le tag de commit, j'imagine que c'est possible. 
