@@ -1,1 +1,0 @@
-cat 2016/*/* |egrep "Location"|cut -f 3 | sort | uniq -c|sort
