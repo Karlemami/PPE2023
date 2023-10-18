@@ -68,3 +68,10 @@ Côté projet, avec Manon et Lucile, on aimerait bien choisir un mot dont les co
 exemple si ce mot est associé à des adjectifs plutôt positifs ou négatifs,ce genre de choses. Mais j'ai l'impression que ça reléverait 
 plutôt d'une analyse sémantique, alors que les attentes du projet semblent être plutôt syntaxique. Pour l'instant, on a pensé au mot 
 "socière", mais on n'est pas encore sur·e·s.
+
+En vérifiant une dernière fois mes scripts avant de push le tag, je me suis rendu compte d'un comportement bizarre. Dans le script 
+"ScriptVariables.sh", je veux m'assurer que l'argument TYPE que l'on passe correspond bien à un type d'annotation dans les fichiers : 
+Person, Organization, Location, Hour, Product, Date ou Event. Ma condition marche bien; si j'écris quelque chose d'autres que ces 
+conditions, le script renvoie bien mon message d'erreur et se ferme. Mais si je répète la dernière lettre d'un de ces types, ça passe 
+quand même la condition. Par exemple si je fournis l'argument "Dateeeeeeeeee" pour type, ça passe la condition et continue l'éxecution 
+du script. J'ai aucune idée de ce qui peut causer ce comportement...
