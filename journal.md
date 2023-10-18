@@ -54,3 +54,17 @@ En effet, c'était possible avec git tag --force <nom du tag> <ID du commit où 
 --force, j'imagine que c'est quelque chose qu'il vaut mieux éviter de faire (c'est aussi ce que semblait dire l'inconnu qui m'a fourni 
 cette commande sur stackoverflow (je sais que c'est pas bien de copier le code d'inconnus sur stackoverflow, mais bon celui-ci je 
 comprenais ce qu'il faisait)).
+
+# Séance 5
+
+Cette semaine, on a vu un peu plus de fonctions relatives aux scripts bash, comme les boucles et les conditions. Pour les exercices, il 
+fallait refaire les scripts de la semaine précédente, mais cette fois-ci en s'assurant que l'on rentrait bien le bon nombre d'arguments. 
+Je me suis aussi amusé à m'assurer que l'argument était du bon type (pour les années, soit 2016, soit 2017, soit 2018 par exemple). 
+C'était assez facile à comprendre, mais vraiment pas très user-friendly si on compare ça à Python par exemple... J'ai un peu galéré à 
+trouver où mettre les espaces dans les conditions, c'est vraiment pas intuitif, mais j'imagine que c'est une question d'habitude.
+
+
+Côté projet, avec Manon et Lucile, on aimerait bien choisir un mot dont les connotations peuvent changer selon la langue, par 
+exemple si ce mot est associé à des adjectifs plutôt positifs ou négatifs,ce genre de choses. Mais j'ai l'impression que ça reléverait 
+plutôt d'une analyse sémantique, alors que les attentes du projet semblent être plutôt syntaxique. Pour l'instant, on a pensé au mot 
+"socière", mais on n'est pas encore sur·e·s.
