@@ -27,4 +27,3 @@ else
 echo "L'argument ANNEE doit être un nombre compris entre 2016 et 2018"
 exit
 fi
-echo "a" 
