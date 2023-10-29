@@ -1,0 +1,6 @@
+1	https://fr.wikipedia.org/wiki/Robot	HTTP/2 200 	charset=UTF-8
+2	https://fr.wikipedia.org/wiki/Robot_de_cuisine	HTTP/2 200 	charset=UTF-8
+3	fr.wikipedia.org/wiki/Robot_d%27indexation	HTTP/2 200 	charset=UTF-8
+4	https://fr.wikipedia.org/wiki/Bot_informatique	HTTP/2 200 	charset=UTF-8
+5	https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)	HTTP/2 404 	charset=UTF-8
+6	https://roboty.magistry.fr	HTTP/1.1 502 Ba Gateway	
