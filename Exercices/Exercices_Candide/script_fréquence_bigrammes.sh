@@ -8,10 +8,10 @@ then
 fi
 if [ -z "$2" ]
 then
-    $nb_head=25
+    nb_head=25
 fi
 
-egrep -o "(\b\w+\b){1,2}" $file | tr "[:upper:]" "[:lower:]" | tr -d ",?;.:!()\"" > fichier_bigramme_1.txt
+egrep -o "(\b\w+\b)?" $file | tr "[:upper:]" "[:lower:]" | tr -d ",?;.:!()\"" > fichier_bigramme_1.txt
 echo $'\r' > fichier_bigramme_2.txt
 egrep -o "(\b\w+\b){1,2}" candide.txt | tr "[:upper:]" "[:lower:]" | tr -d ",?;.:!()\"" >> fichier_bigramme_2.txt
 
