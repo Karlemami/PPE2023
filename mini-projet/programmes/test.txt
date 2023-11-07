@@ -1,0 +1,6 @@
+1	https://fr.wikipedia.org/wiki/Robot		charset=UTF-8
+2	https://fr.wikipedia.org/wiki/Robot_de_cuisine		charset=UTF-8
+3	fr.wikipedia.org/wiki/Robot_d%27indexation		charset=UTF-8
+4	https://fr.wikipedia.org/wiki/Bot_informatique		charset=UTF-8
+5	https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)		charset=UTF-8
+6	https://roboty.magistry.fr		
