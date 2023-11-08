@@ -8,7 +8,7 @@ then
 fi
 if [ -z "$2" ]
 then
-    $nb_head=25
+    nb_head=25
 fi
 
 bash script_traitement_fichier.sh $file | sort | uniq -c| sort -nr | head -n $nb_head

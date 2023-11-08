@@ -6,4 +6,4 @@ then
 	exit
 fi
 
-egrep -o "(\b\w+\b){1,2}" $file | tr "[:upper:]" "[:lower:]" | tr -d ",?;.:!()\""
+egrep -o "\w+" $file | tr "[:upper:]" "[:lower:]" | tr -d ",?;.:!()\""
