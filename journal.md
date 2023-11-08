@@ -50,7 +50,7 @@ faire quelque chose comme ann/DATE=$1, mais ça ne fonctionne pas. Peut-être tr
 Tout content d'avoir réussi mes exercices, je me suis dépêché de tout push avec le tag... Avant de remplir le journal... Je vais essayer 
 de changer le tag de commit, j'imagine que c'est possible.
 
-En effet, c'était possible avec git tag --force <nom du tag> <ID du commit où mettre le tag>. Étant donné qu'il faut utiliser l'option 
+En effet, c'était possible avec git tag --force `<nom du tag> <ID du commit où mettre le tag>`. Étant donné qu'il faut utiliser l'option 
 --force, j'imagine que c'est quelque chose qu'il vaut mieux éviter de faire (c'est aussi ce que semblait dire l'inconnu qui m'a fourni 
 cette commande sur stackoverflow (je sais que c'est pas bien de copier le code d'inconnus sur stackoverflow, mais bon celui-ci je 
 comprenais ce qu'il faisait)).
@@ -98,6 +98,14 @@ mot 2 - mot 3
 mot 3 - mot 4
 etc.
 
-et il suffit ensuite de trier les occurences de ces bigrammes. J'ai juste eu un petit soucis : la commande que je tapais dans le terminal pour insérer une ligne vide au début du fichier, soit `echo "\r" > fichier_bigramme_2.txt` fonctionnait dans le CLI, mais pas quand j'éxecutais mon script. J'ai mis un peu de temps à me rendre compte que c'était parce que mon interpréteur CLI est zsh, mais j'utilise bash pour lancer mes scripts, et bash et zsh n'ont visiblement pas la même syntaxe pour interpréter les caractères de contrôle. Avec bash, j'ai réussi à obtenir le même output en tapant plutôt `$'\r'`, et les guillemets simples sont obligatoires... Ça m'a l'air un peu trop compliqué; si on y réfléchit bien, bash a besoin de trois indices pour comprendre qu'on lui donne un caractère de contrôle : le $ + le backslash + les single quotes... Zsh a l'air d'utiliser un peu plus son cerveau.x
+et il suffit ensuite de trier les occurences de ces bigrammes. J'ai juste eu un petit soucis : la commande que je tapais dans le terminal pour insérer une ligne vide au début du fichier, soit `echo "\r" > fichier_bigramme_2.txt` fonctionnait dans le CLI, mais pas quand j'éxecutais mon script. J'ai mis un peu de temps à me rendre compte que c'était parce que mon interpréteur CLI est zsh, mais j'utilise bash pour lancer mes scripts, et bash et zsh n'ont visiblement pas la même syntaxe pour interpréter les caractères de contrôle. Avec bash, j'ai réussi à obtenir le même output en tapant plutôt `$'\r'`, et les guillemets simples sont obligatoires... Ça m'a l'air un peu trop compliqué; si on y réfléchit bien, bash a besoin de trois indices pour comprendre qu'on lui donne un caractère de contrôle : le $ + le backslash + les single quotes... Zsh a l'air d'utiliser un peu plus son cerveau.
  
+# séance 7
 
+Hier, j'étais à deux doigts de traiter bash de gros bébé, mais en fait j'avais juste oublié l'option -e à echo, pour que les caractères de contrôles soient interprétés correctement. Visiblement, pas besoin de cette option avec zsh.
+
+Cette semaine, on a dû reprendre l'output du mini-projet qu'on avait enregistré en tsv, et le transformer en tableau http. Comme on avait déjà tout formaté en tsv, la modification du script a été assez simple : il suffisait de remplacer les `\t` par la syntaxe HTML qui ajoute des lignes au tableau. On rajoute le reste des informations html avant et après la boucle, et le tour est joué. 
+Dans firefox, tout s'affichait correctement, mais dans safari, il y avait des problèmes d'encodage des caractères diacrités. J'ai donc rajouté la métadonnée `<meta charset='UTF-8'>` au début du fichier, et ça a résolu le problème. Apparement, Safari utilise ISO LATIN 1 par défaut quand l'encodage n'est pas spécifié dans les métadonnées. Ensuite, j'ai recherché comment faire en sorte que le lien soit cliquable; il suffisait de rajouter une balise `<a>`. 
+Enfin, j'ai rajouté des commentaires pour expliquer un peu le script, qui devient de plus en plus cryptique : le moi du futur me remerciera.
+
+Pour ce qui est de l'exercice sur Candide, je l'ai déjà fait.

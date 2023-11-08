@@ -12,7 +12,7 @@ then
 fi
 
 egrep -o "\w+" $file | tr "[:upper:]" "[:lower:]" | tr -d ",?;.:!()\"" > fichier_bigramme_1.txt
-echo $'\r' > fichier_bigramme_2.txt
+echo -e "\r" > fichier_bigramme_2.txt
 egrep -o "\w+" candide.txt | tr "[:upper:]" "[:lower:]" | tr -d ",?;.:!()\"" >> fichier_bigramme_2.txt
 
 paste -d " " fichier_bigramme_2.txt fichier_bigramme_1.txt | sort | uniq -c | sort -nr | head -n $nb_head > bigrammes.txt
