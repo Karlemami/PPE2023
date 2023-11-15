@@ -1,6 +1,7 @@
 file=$1
 
-if [ $# -ne 1 ]
+#Si l'argument 1 n'est pas un fichier, alors on quitte le script et on affiche un message
+if [ ! -f "$1" ]
 then
 	echo "Ce script demande en argument un fichier texte"
 	exit
