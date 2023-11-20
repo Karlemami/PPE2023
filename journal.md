@@ -109,3 +109,9 @@ Dans firefox, tout s'affichait correctement, mais dans safari, il y avait des pr
 Enfin, j'ai rajouté des commentaires pour expliquer un peu le script, qui devient de plus en plus cryptique : le moi du futur me remerciera.
 
 Pour ce qui est de l'exercice sur Candide, je l'ai déjà fait.
+
+# séance 8
+
+Cette semaine, on a découvert Bulma et on a dû apprendre à s'en servir pour créer un petit site avec un page d'accueil et une page de tableaux. J'ai bien aimé fouiller dans la docu pour essayer d'embellir un peu mon site. J'ai passé un temps fou à rajouter des logos dans ma barre de navigation. Bulma utilise une base de données de logo appellée fontawesome, mais j'ai eu beaucoup de mal à trouver comment l'utiliser. Il a fallu me créer un compte fontawesome pour obtenir un code et appeler ce code dans le code html avec une balise `<script>`. 
+
+Après avoir écrit le code http avec le design de mon choix, il suffisait de modifier le script du mini-projet pour qu'il génère automatiquement le nouveau code http/bulma. 
