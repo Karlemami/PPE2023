@@ -119,3 +119,12 @@ Après avoir écrit le code http avec le design de mon choix, il suffisait de mo
 # séance 9
 
 Cette semaine on commence pour de vrai les projets de groupe. Donc j'imagine qu'il va plus se passer grand chose sur ce dépôt. Tout se passe là-bas (https://github.com/Maouee/PPE_arbre) maintenant. On a retravaillé le script pour le faire fonctionner avec nos données. Tout fonctionne, mais on n'arrive pas à générer une bonne structure html; c'est impossible d'`echo` tout le html avec la bonne indentation. On verra ça plus tard, le plus important c'est que ça fonctionne. L'autre problème, c'est que notre script marche moins bien sur mac. Je crois que le problème vient de la version mac de lynx, qui rencontre des problèmes avec les caractères diacrités. Dès qu'on veut faire un changement sur le script, il faut donc attendre que Lucile (la seule sous linux) le lance pour voir si ça fonctionne vraiment...
+
+# Séance 10
+
+On a adapté le script pour gérer les erreurs 404 et afficher "NA" et forcer le compteur à 0. On a toujours l'air d'avoir un lien cliquable avec le "NA", il faudrait faire une condition où on ne met pas un lien cliquable si le code réponse est autre chose que 200.
+
+Pour remplacer les caractères "<", ">" et "&", j'ai utlisé sed, mais il y a un problème vu qu'on essaie de remplacer "&" par "&amp"; alors j'ai remplacé le "&" par un "@" dans la substitution. 
+
+Exercices itrameur : tout roule ! On a retravaillé les chemins pour correspondre davantage aux exemples donnés. 
+Pour régler le problème avec Lynx, on a trouvé un autre éditeur qui fonctionne mieux sur Mac : Links. La syntaxe est très similaire à celle de Lynk : on a l'option -dump pour récupérer le contenu textuel de la page, et l'option -codepage pour convertir la page dans l'encodage de notre choix (UTF-8 en l'occurence)
